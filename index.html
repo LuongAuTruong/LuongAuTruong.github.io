@@ -5,68 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luong Truong</title>
-    <style>
-        @font-face {
-            font-family: "Fira Sans";
-            font-weight: normal;
-            font-style: normal;
-            src:
-                local("Fira Sans"),
-                url("fonts/FiraSans-Regular.woff2") format("woff2");
-        }
-
-        @font-face {
-            font-family: "Fira Sans";
-            font-weight: bold;
-            font-style: normal;
-            src:
-                local("Fira Sans Bold"),
-                url("fonts/FiraSans-Bold.woff2") format("woff2");
-        }
-
-        @font-face {
-            font-family: "Fira Sans";
-            font-weight: normal;
-            font-style: italic;
-            src:
-                local("Fira Sans Italic"),
-                url("fonts/FiraSans-Italic.woff2") format("woff2");
-        }
-
-        @font-face {
-            font-family: "Fira Sans";
-            font-weight: bold;
-            font-style: italic;
-            src:
-                local("Fira Sans BoldItalic"),
-                url("fonts/FiraSans-BoldItalic.woff2") format("woff2");
-        }
-
-        html {
-            background-color: #e0e0e0;
-        }
-        main {
-            background-color: #efefef;
-            width: 85vw;
-            max-width: 740px;
-            margin: auto;
-            padding: 1rem;
-        }
-
-        h2 {
-            font-size: 1.1em;
-        }
-
-        body {
-            font-family: "Fira Sans", sans-serif;
-            font-size: 1.2em;
-            line-height: 1.25;
-        }
-
-        #tagline {
-            font-style: italic;
-        }
-    </style>
+    <link ref="stylesheet" href="style.css">
 </head>
 <body>
     <main>
@@ -87,9 +26,6 @@
         </ul>
         <small>&copy; Luong Nguyen Truong <span id="copyright-year"> </span>.</small>
     </main>
-    <script>
-        var date = new Date().getFullYear();
-        document.getElementById("copyright-year").innerHTML = date;
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
